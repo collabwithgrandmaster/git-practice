@@ -35,12 +35,26 @@ git clone <repo_url.git>
 
 
 ## to switch to a new branch. If the branch doesnt exist it will create a new one.
-git checkout -b <branchname>
+git checkout -b branchname
 
 
 ## to see the list of branches 
 git branch
 
+## to switch main branche 
+git switch main
 
-## to push the changes to my branch
+
+## to push the changes to my branch (grandmaster)
 git push origin grandmaster
+
+
+## create a PR(pull request) for peer review from my branch (grandmaster)
+on the UI
+
+## once review is done merge changes tothe main branch
+on the UI
+
+## so by now the remote repository main branch is updated and is in sync with the dev branch (grandmaster) but the local copy of the main branch is still reflecting the old version. to sync that we switch the btanch to main and pull the main branch again
+git switch main
+git pull
