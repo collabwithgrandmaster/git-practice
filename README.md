@@ -27,3 +27,8 @@ git add <file_name>
 or
 git add . # to stage all untracked files 
 
+## to save changes made to the staged file commit is used
+git commit -m "initial commit" 
+
+## to create a local copy of a remote repository(Https) 
+git clone <repo_url.git>
