@@ -32,3 +32,11 @@ git commit -m "initial commit"
 
 ## to create a local copy of a remote repository(Https) 
 git clone <repo_url.git>
+
+
+## to switch to a new branch. If the branch doesnt exist it will create a new one.
+git checkout -b <branchname>
+
+
+## to see the list of branches 
+git branch
