@@ -45,11 +45,11 @@ git branch
 git switch main
 
 
-## to push the changes to my branch
+## to push the changes to my branch (grandmaster)
 git push origin grandmaster
 
 
-## create a PR(pull request) for peer review
+## create a PR(pull request) for peer review from my branch (grandmaster)
 on the UI
 
 ## once review is done merge changes tothe main branch
