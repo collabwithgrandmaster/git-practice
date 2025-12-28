@@ -58,3 +58,39 @@ on the UI
 ## so by now the remote repository main branch is updated and is in sync with the dev branch (grandmaster) but the local copy of the main branch is still reflecting the old version. to sync that we switch the branch to main and pull the main branch again
 git switch main
 git pull
+
+## git show > it gives details of the last merge on the main branch example
+git show
+commit 6d2476184761a72d8d8d4b9dafda9619235cfd9b (HEAD -> main, origin/main, origin/HEAD)
+Merge: bf2191a ce6db52
+Author: collabwithgrandmaster <collabwithgrandmaster@gmail.com>
+Date:   Mon Dec 29 02:29:39 2025 +0530
+
+    Merge pull request #3 from collabwithgrandmaster/grandmaster
+    
+    updated the readme
+
+## the GitHub Flow
+
+![alt text](TheGitHubFlow.png)
+
+
+# Last step is to delete the dev branch
+
+git branch -d grandmaster
+
+git push --delete origin grandmaster
+
+
+
+## important urls
+https://github.blog/developer-skills/programming-languages-and-frameworks/what-is-git-our-beginners-guide-to-version-control/
+
+https://github.blog/developer-skills/github/top-12-git-commands-every-developer-must-know/
+
+https://choosealicense.com/ # for selecting right license for the git repo/project
+
+
+https://www.toptal.com/developers/gitignore # for gitignore template files
+
+https://learn.github.com/certifications # for github certifications.
