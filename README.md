@@ -56,4 +56,5 @@ on the UI
 on the UI
 
 ## so by now the remote repository main branch is updated and is in sync with the dev branch (grandmaster) but the local copy of the main branch is still reflecting the old version. to sync that we switch the btanch to main and pull the main branch again
-
+git switch main
+git pull
