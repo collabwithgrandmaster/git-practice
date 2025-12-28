@@ -40,3 +40,7 @@ git checkout -b <branchname>
 
 ## to see the list of branches 
 git branch
+
+
+## to push the changes to my branch
+git push origin grandmaster
