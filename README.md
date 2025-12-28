@@ -94,3 +94,5 @@ https://choosealicense.com/ # for selecting right license for the git repo/proje
 https://www.toptal.com/developers/gitignore # for gitignore template files
 
 https://learn.github.com/certifications # for github certifications.
+
+https://www.youtube.com/playlist?list=PL0lo9MOBetEFcp4SCWinBdpml9B2U25-f # YT playlist
